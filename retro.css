@@ -1,0 +1,285 @@
+body{
+	background-color: #7FFFD4
+	margin: 0;
+	padding: 0;
+}
+#about_ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+.about_li {
+  float: right;
+}
+
+
+.active{
+  display: block;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 300;
+  text-align: center;
+  padding: 14px 16px;
+
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#div_one{
+  height: 900px;
+  width: 100%;
+  background-image: url(images/pic1.jpg);
+  background-color:	#008B8B ;
+  margin-top: -20;
+  opacity:0.7;
+}
+
+#h1_one{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 900;
+	padding-top: 200px;
+	padding-bottom: 50px;
+}
+#p_one {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 700;
+	text-align: center;
+
+}
+#div_two{
+	height: 900px;
+	width:100%;
+	background-color: white;
+}
+
+#div_twoupper{
+	height: 200px;
+	width:100%;
+	
+}
+
+#div_twoleft{
+	height: 700px;
+	width: 50%;
+	float: left;
+	
+	
+
+}
+
+#div_tworight{
+	height: 700px;
+	width: 50%;
+	float: right;
+
+
+}
+
+#h1_two{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 700;
+	margin-top: 50px;
+	padding-top: 20px;
+}
+#img_abt{
+	width: 450px;
+	height: 450px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding-top: 0 px;
+  	border: 5px solid #A9A9A9;
+}
+
+
+.p_abt{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 700;
+	margin:40px;
+	margin-top: 30px;
+	padding: 50px;
+	border:5px solid #A9A9A9;
+}
+
+#div_three{
+	height: 900px;
+	width:100%;
+	background-color: white;
+}
+
+#div_threeupper{
+	height: 200px;
+	width:100%;
+}
+
+#div_threeleft{
+	height: 700px;
+	width: 50%;
+	float: left;
+	
+	
+
+}
+
+#div_threeright{
+	height: 700px;
+	width: 50%;
+	float: right;
+
+
+}
+
+#h1_three{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 700;
+	margin-top: 50px;
+	padding-top: 20px;
+}
+
+.p_abt2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 700;
+	margin:40px;
+	margin-top: 30px;
+	padding: 50px;
+	border:5px solid #A9A9A9;
+}
+
+#div_four{
+	height: 900px;
+	width:100%;
+	background-color: white;
+}
+
+#div_fourleft{
+	height: 700px;
+	width: 50%;
+	float: left;
+	background-color: white;
+
+}
+
+#div_fourright{
+	height: 700px;
+	width: 50%;
+	float: right;
+	background-color: white;
+
+}
+
+.{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 700;
+	margin-top: 50px;
+	padding-top: 20px;
+}
+
+.four_header{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 700;
+	margin-top: 50px;
+	padding-top: 20px;
+}
+table{margin: 125px;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 300;
+    padding: 14px 16px;
+
+
+}
+table td, table th {
+ 	border: 1px solid #ddd;
+  	padding: 8px;
+ }
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+#movies_ul{
+  list-style-type: none;
+  margin: 30px;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+.movies_li{
+
+  display: block;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 300;
+  text-align: center;
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+}
+
+#div_five{
+	height: 1200px;
+	width:100%;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#divh1{
+	height: 500px;
+	width: 50%;
+	background-image: url(images/movies.jpg);
+	background-size: cover;
+	float: left;
+	opacity: 0.7;
+
+}
+
+#divh2{
+	height: 500px;
+	width: 50%;
+	background-image: url(images/biking.jpg);
+	background-size: cover;
+	float: right;
+	opacity: 0.7;
+
+}
+
+#divh3{
+	height: 500px;
+	width: 50%;
+	background-image: url(images/travelling.jpg);
+	background-size: cover;
+	float:left;
+	opacity: 0.7;
+
+}
+
+#divh4{
+	height: 500px;
+	width: 50%;
+	background-image: url(images/gaming.jpg);
+	background-size: cover;
+	float: right;
+	opacity: 0.7;
+
+}
+
+.h1_hob{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin:50px;
+	padding:50px;
+	
+}
